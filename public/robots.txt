@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pet-sede-digital.lovable.app/sitemap.xml
