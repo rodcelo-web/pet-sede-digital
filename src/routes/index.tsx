@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { BrandLogo } from "@/components/BrandLogo";
 import {
   MessageCircle,
   AlertTriangle,
