@@ -77,8 +77,8 @@ function Navbar() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
         <a href="#top" className="group inline-flex items-center gap-3 text-lg sm:text-xl">
-          <span className="flex h-[1em] w-[1em] items-center justify-center rounded-xl bg-white shadow-sm">
-            <BrandLogo className="h-[80%] w-[80%]" />
+          <span className="flex h-[1em] w-[1em] items-center justify-center rounded-xl border border-border/60 bg-white shadow-md">
+            <BrandLogo className="h-[85%] w-[85%]" />
           </span>
           <span className="font-display font-semibold tracking-tight text-foreground">
             New Planet <span className="italic text-primary">Offers</span>
@@ -363,8 +363,8 @@ function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-5 sm:px-8 md:flex-row md:items-center">
         <div>
           <p className="inline-flex items-center gap-3 text-base font-semibold text-foreground">
-            <span className="flex h-[1em] w-[1em] items-center justify-center rounded-xl bg-white shadow-sm">
-              <BrandLogo className="h-[80%] w-[80%]" />
+            <span className="flex h-[1em] w-[1em] items-center justify-center rounded-xl border border-border/60 bg-white shadow-md">
+              <BrandLogo className="h-[85%] w-[85%]" />
             </span>
             <span className="font-display">
               New Planet <span className="italic text-primary">Offers</span>
