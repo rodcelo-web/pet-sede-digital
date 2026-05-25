@@ -77,11 +77,13 @@ function Navbar() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
         <a href="#top" className="group inline-flex items-center gap-3 text-lg sm:text-xl">
-          <span className="flex h-[1em] w-[1em] items-center justify-center rounded-xl border border-border/60 bg-white shadow-md">
-            <BrandLogo className="h-[85%] w-[85%]" />
+          <span className="flex aspect-square h-[2.4em] items-center justify-center rounded-xl border border-border/60 bg-white shadow-md">
+            <BrandLogo className="h-[78%] w-[78%]" />
           </span>
-          <span className="font-display font-semibold tracking-tight text-foreground">
-            New Planet <span className="italic text-primary">Offers</span>
+          <span className="font-display font-semibold leading-[1.1] tracking-tight text-foreground">
+            New Planet
+            <br />
+            <span className="italic text-primary">Offers</span>
           </span>
         </a>
         <a
@@ -363,11 +365,13 @@ function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-5 sm:px-8 md:flex-row md:items-center">
         <div>
           <p className="inline-flex items-center gap-3 text-base font-semibold text-foreground">
-            <span className="flex h-[1em] w-[1em] items-center justify-center rounded-xl border border-border/60 bg-white shadow-md">
-              <BrandLogo className="h-[85%] w-[85%]" />
+            <span className="flex aspect-square h-[2.4em] items-center justify-center rounded-xl border border-border/60 bg-white shadow-md">
+              <BrandLogo className="h-[78%] w-[78%]" />
             </span>
-            <span className="font-display">
-              New Planet <span className="italic text-primary">Offers</span>
+            <span className="font-display leading-[1.1]">
+              New Planet
+              <br />
+              <span className="italic text-primary">Offers</span>
             </span>
           </p>
           <p className="mt-2 text-xs text-muted-foreground">
