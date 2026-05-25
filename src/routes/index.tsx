@@ -17,21 +17,52 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "New Planet Offers — Sites de Alta Conversão para Clínicas Veterinárias e Pet Shops" },
+      { title: "New Planet Offers — Sites para Clínicas e Pet Shops" },
       {
         name: "description",
         content:
           "Criamos Sedes Digitais profissionais para o mercado pet. Sites rápidos, otimizados para Google e prontos para transformar tutores em agendamentos.",
       },
-      { property: "og:title", content: "New Planet Offers — Sedes Digitais para o Mercado Pet" },
+      { property: "og:title", content: "New Planet Offers — Sites para Clínicas e Pet Shops" },
       {
         property: "og:description",
         content:
           "Não dependa apenas das redes sociais. Tenha um site rápido, otimizado para o Google e pronto para receber tutores na sua região.",
       },
+      { property: "og:url", content: "https://pet-sede-digital.lovable.app/" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c34eea49-7421-43a0-9e95-836bbe392b5c/id-preview-6b848466--c3c9b6f8-8ad1-4a66-82d5-082f3d7734ae.lovable.app-1779669271064.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c34eea49-7421-43a0-9e95-836bbe392b5c/id-preview-6b848466--c3c9b6f8-8ad1-4a66-82d5-082f3d7734ae.lovable.app-1779669271064.png" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://pet-sede-digital.lovable.app/" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              name: "New Planet Offers",
+              url: "https://pet-sede-digital.lovable.app/",
+              email: "criadordesites@newplanetoffers.com",
+              description:
+                "Criação de sites profissionais para clínicas veterinárias, hospitais pet e pet shops.",
+              areaServed: "BR",
+            },
+            {
+              "@type": "WebSite",
+              name: "New Planet Offers",
+              url: "https://pet-sede-digital.lovable.app/",
+            },
+          ],
+        }),
+      },
     ],
   }),
 });
+
 
 const WHATSAPP_NUMBER = "5511947384813";
 const WHATSAPP_MSG = encodeURIComponent(
@@ -243,7 +274,7 @@ function Showcase() {
                 Conheça o nosso{" "}
                 <span className="italic">padrão de entrega.</span>
               </h2>
-              <p className="mt-5 text-base leading-relaxed text-primary-foreground/75 sm:text-lg">
+              <p className="mt-5 text-base leading-relaxed text-primary-foreground/90 sm:text-lg">
                 Desenvolvemos projetos sob medida para marcas locais, como o modelo conceitual
                 criado para a{" "}
                 <span className="font-medium text-primary-foreground">Bosque dos Animais</span>.

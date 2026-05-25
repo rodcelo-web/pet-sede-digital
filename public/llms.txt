@@ -1,0 +1,9 @@
+# New Planet Offers
+
+> Criação de sites profissionais (Sedes Digitais) de alta conversão para o mercado pet brasileiro: clínicas veterinárias, hospitais pet e pet shops.
+
+A New Planet Offers desenvolve sites sob medida que organizam serviços de Clínica, Vacinação, Banho e Tosa e Hotel/Creche em um só lugar, otimizados para SEO local e prontos para transformar tutores em agendamentos.
+
+## Pages
+
+- [Home](/): Landing page com proposta de valor, problemas resolvidos, solução e contato comercial via WhatsApp.
