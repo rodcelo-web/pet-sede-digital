@@ -274,7 +274,7 @@ function Showcase() {
                 Conheça o nosso{" "}
                 <span className="italic">padrão de entrega.</span>
               </h2>
-              <p className="mt-5 text-base leading-relaxed text-primary-foreground/75 sm:text-lg">
+              <p className="mt-5 text-base leading-relaxed text-primary-foreground/90 sm:text-lg">
                 Desenvolvemos projetos sob medida para marcas locais, como o modelo conceitual
                 criado para a{" "}
                 <span className="font-medium text-primary-foreground">Bosque dos Animais</span>.
